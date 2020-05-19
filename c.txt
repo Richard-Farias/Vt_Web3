@@ -1,2 +1,3 @@
-Criado um novo arquivo
+Resetando um commit
 Agora vou testar o checkout
+
