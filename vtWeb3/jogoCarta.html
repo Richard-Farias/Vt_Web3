@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jogos de Cartas</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<script type="text/javascript">
+
+			alert("Pense em uma das cartas:");
+
+			function Cartas(pNumero,pNaipe){
+					this.pNumero = pNumero;
+					this.pNaipe = pNaipe;
+				}
+					var carta1 = new Cartas("A","♥");
+					var carta2 = new Cartas("K","♦");
+					var carta3 = new Cartas("J","♣");
+					var carta4 = new Cartas("Q","♠");
+
+			function exibirCarta(){
+
+					alert(carta1.pNumero + carta1.pNaipe+"-"+
+				 	   carta2.pNumero + carta2.pNaipe+"-"+
+				 	   carta3.pNumero + carta3.pNaipe+"-"+
+				 	   carta4.pNumero + carta4.pNaipe
+			 	   );
+
+					var tentativa_01 = prompt("Sua carta é:" +carta1.pNumero+carta1.pNaipe);
+
+					if(tentativa_01 =="s"){
+							alert("Acertei a sua Carta!");	
+					}
+					else{
+						var tentativa_02 = prompt("Sua carta é:" +carta2.pNumero+carta2.pNaipe);	
+					}
+
+
+					if(tentativa_02 =="s"){
+							alert("Acertei a sua Carta!");
+					}
+					else{	
+						var tentativa_03 = prompt("Sua carta é:" +carta3.pNumero+carta3.pNaipe);
+					}
+
+					
+					if(tentativa_03 =="s"){
+							alert("Acertei a sua Carta!");
+					}
+					else{	
+						var tentativa_04 = prompt("Sua carta é:" +carta4.pNumero+carta4.pNaipe);
+					}
+					
+
+					if(tentativa_04 =="s"){
+							alert("Acertei a sua Carta!");	
+					}
+					else{
+						alert("Você não escolheu uma carta do baralho.");
+					}	
+			}
+			
+			exibirCarta();
+
+		</script>
+
+	</body>
+
+</html>
