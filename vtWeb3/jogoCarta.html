@@ -27,37 +27,29 @@
 				 	   carta4.pNumero + carta4.pNaipe
 			 	   );
 
-					var tentativa_01 = prompt("Sua carta é:" +carta1.pNumero+carta1.pNaipe);
+					var tentativa_01 = prompt("Quer está carta ? " +carta1.pNumero+carta1.pNaipe);
+					var tentativa_02 = prompt("Quer está carta ? " +carta2.pNumero+carta2.pNaipe);	
+					var tentativa_03 = prompt("Quer está carta ? " +carta3.pNumero+carta3.pNaipe);
+					var tentativa_04 = prompt("Quer está carta ? " +carta4.pNumero+carta4.pNaipe);
 
 					if(tentativa_01 =="s"){
-							alert("Acertei a sua Carta!");	
+							alert("A carta escolhida foi "	+ carta1.pNumero+carta1.pNaipe);	
 					}
+					else
+						if(tentativa_02 =="s"){
+							alert("A carta escolhida foi "	+ carta2.pNumero+carta2.pNaipe);
+						}
+					else	
+						if(tentativa_03 =="s"){
+							alert("A carta escolhida foi "	+ carta3.pNumero+carta3.pNaipe);
+						}
+					else	
+						if(tentativa_04 =="s"){
+							alert("A carta escolhida foi "	+ carta4.pNumero+carta4.pNaipe);	
+						}
 					else{
-						var tentativa_02 = prompt("Sua carta é:" +carta2.pNumero+carta2.pNaipe);	
-					}
 
-
-					if(tentativa_02 =="s"){
-							alert("Acertei a sua Carta!");
-					}
-					else{	
-						var tentativa_03 = prompt("Sua carta é:" +carta3.pNumero+carta3.pNaipe);
-					}
-
-					
-					if(tentativa_03 =="s"){
-							alert("Acertei a sua Carta!");
-					}
-					else{	
-						var tentativa_04 = prompt("Sua carta é:" +carta4.pNumero+carta4.pNaipe);
-					}
-					
-
-					if(tentativa_04 =="s"){
-							alert("Acertei a sua Carta!");	
-					}
-					else{
-						alert("Você não escolheu uma carta do baralho.");
+						 alert("Você não escolheu uma carta do baralho.");
 					}	
 			}
 			
