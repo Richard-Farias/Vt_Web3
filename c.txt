@@ -1,3 +1,0 @@
-Resetando um commit
-Agora vou testar o checkout
-
