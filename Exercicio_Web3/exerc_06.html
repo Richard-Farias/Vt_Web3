@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercíco 06</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+		Digite o número:<input type="text" name="num" size="5" id="num">
+		
+		<script type="text/javascript">
+
+			var numero = "";
+
+			function capturar() {
+			 	numero = document.getElementById('num').value;
+
+			 	if (numero<10) {alert("Insuficiente");}
+
+				 if (numero>=10&&numero<14) {alert("Bom");}
+
+				 if( numero>=14){alert("Muito Bom!");}
+
+				 document.getElementById('valor').innerHTML=numero;
+				
+			}
+
+			</script>
+	 <input type="submit" name="" onclick="capturar()" value="Enviar"> 
+	 <p id="valor"></p>
+</body>
+</html>

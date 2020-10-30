@@ -1,0 +1,23 @@
+ h1{
+ 	background-color:#215966;
+ 	font-family: arial black;
+ 	font-size: 20px;
+ 	color: #ffffff;
+ 	height : 130px;
+
+ }
+
+body{
+	background-color: #ADD8E6;
+}
+
+th{
+
+	font-size: 20px;
+	font-family: arial;
+}
+td{
+	color: #000000;
+	font-size: 18px;
+	font-family: arial;
+}

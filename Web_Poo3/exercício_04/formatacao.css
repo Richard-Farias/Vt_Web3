@@ -1,0 +1,30 @@
+*{
+	background-color: #FFFF00;
+}
+
+span{
+	font-weight: bold;
+}
+#p01{
+	font-family: verdana;
+	text-align: center;
+	font-size:6;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+#p02{
+	text-align: center;
+}
+#p03{
+	font-family: verdana;
+	font-size: 3;
+}
+#p04{
+	text-align: center;
+	border-image: 0px;
+	align-items: center;
+}
+#p05{
+	font-family: verdana;
+	font-size: 1px;
+}

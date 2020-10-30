@@ -1,0 +1,30 @@
+header{
+	background-color: #F8F8FF;
+	padding: 20px;
+	height: 100px;
+	font-family: "Resolute NF";
+
+}
+	
+body{
+	background:#1b316b;
+	font-family: 'Roboto',sans-serif;
+}
+#logo{
+	position: relative;
+	bottom:15px; 
+
+}
+
+.row{
+	margin: 0;
+}
+.container{
+	padding: 70px 0;
+}
+
+
+#nav-container{
+	padding-top: 0;
+	padding-bottom: 0;
+}

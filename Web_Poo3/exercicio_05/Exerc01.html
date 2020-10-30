@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício 01</title>
+	<meta charset="utf-8">
+	<script language="javascript" src ="Exerc01.js"></script>
+	<!--Inicio Css -->
+	<style type="text/css">
+
+		#botao{
+			width: 135  px;
+			height: 45px;
+			border: none;
+			position: relative;
+			left: 15px;
+			background-color: #A9A9A9;
+		}
+		
+	</style>
+</head>
+<body>
+
+<center><h1> Introdução ao javaScript</h1><center>
+	<br>
+	<label>Entre com o Texto</label>
+	<input id="txt01" type="text" name="intro1">
+	<label>Cópia do Texto</label>
+	<input  id="txt02" type="text" name="intro2">
+	<button id="copia" onclick="copiar()">Copiar</button>
+	<button id="botao" onmouseover="mudarCor(this)" onmouseout="normalCor(this)">Posicione aqui o mouse</button>
+<br>
+<hr>
+
+<!--Código JavaScript -->
+<script type="text/javascript">
+	document.write("Editando texto com JavaScrip");
+//Função copia campo
+	function copiar(){
+		var entrada = document.getElementById("txt01").value;
+		document.getElementById("txt02").value = entrada;
+	}
+//Função muda cor onmouseover/onmouseout
+function mudarCor(cor){
+	cor.style.backgroud ="green";
+	cor.style.color = "yellow";
+}
+
+function normalCor(cor){
+	cor.style.backgroud = "#DDD";
+	cor.style.color = "Green";
+}	
+
+
+</script>
+
+</body>
+</html>

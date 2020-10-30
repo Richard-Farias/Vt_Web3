@@ -1,0 +1,67 @@
+header{
+	background-color: #F8F8FF;
+	padding: 20px;
+	height: 100px;
+	font-family: "Resolute NF";
+
+}
+	
+body{
+	background:#1b316b;
+	font-family: 'Roboto',sans-serif;
+}
+label{
+	color: #fdc20d;
+	font-size: 20px;
+
+}
+
+#titulo01{
+	position: relative;
+	left:300px;
+	top:1px;
+	font-size: 50px;
+	font-family: impact;
+	color:#1b316b;
+}
+
+#titulo02{
+	position: relative;
+	top:1px;
+	left:298px;
+	font-size:65px;
+	color: #ea1d28;
+	font-family: 'Lobster', cursive;
+}
+
+
+#logo{
+	position: relative;
+	bottom:24px; 
+	left: 10px;
+
+}
+#iconeAluno{
+	position: relative;
+	top: 10px;
+	right: 65px;
+	color: #F0F8FF;
+	font-family: verdana;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+.row{
+	margin: 0;
+}
+.container{
+	padding: 70px 0;
+}
+
+
+#nav-container{
+	padding-top: 0;
+	padding-bottom: 0;
+}

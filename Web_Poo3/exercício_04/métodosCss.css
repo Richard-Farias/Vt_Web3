@@ -1,0 +1,42 @@
+*{
+	background: #87CEFA;/*axzul claro*/
+	background: #98FB98;/*verde claro*/
+	background-image: url("imagem.jpg");
+	/*background-repeat: repeat-x; repete na horizontal*/
+	background-repeat: no-repeat;/* sem repetição */
+	background-position: center;
+	background-size: cover;/* imagem de fundo*/
+	background-attachment: fixed; /* fixando imagem*/	
+}
+header{
+	font-family: arial;
+	color: red;
+}
+table{
+	border:5px solid #FF0000;
+	position: relative;
+	left: 800px;
+	bottom: 249px;
+}
+
+
+#th01{border:5px solid #00FF7F;}
+td{ border:5px solid #98FB98;
+	text-align: left;
+ }
+
+#paragrafo{
+	font-size: 16;
+	font-family: Arial;
+	color: green;
+}
+#fonteAmarela{
+	font-family: courier;
+	font-size: 16px;
+	color: yellow;
+}
+.fonteVerde{
+	font-family: times;
+	font-size: 22px;
+	color: #00FA9A;
+}

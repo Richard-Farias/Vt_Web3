@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Exercício 01</title>
+	<meta charset="utf-8">
+
+
+</head>
+
+<body>
+
+	<center>
+		<h1>
+			Testando Eventos 
+		</h1>
+	</center>
+
+	<input type="text" name="entrada"><br><br>
+	<button class="ent">Click</button>	
+	<script>
+		
+		var entrada = document.querySelector('button.ent');
+		var enter = document.querySelector('input[name=entrada]');
+
+			entrada.onclick = function(){
+				var txt = inputElement.value;
+
+				document.write(txt);
+				alert('Acionado');
+			}
+
+
+
+
+		/*var idade,maiorIdade =0,menorIdade = 0;
+
+		for(var cont=0;cont<5;cont++){
+
+				idade = prompt("Digite sua idade:");
+				if(idade>18){
+				   maiorIdade+= 1;
+				}
+
+				if(idade<18){
+					menorIdade+=1;
+				}
+		}
+
+		document.write( maiorIdade +" Pessoas são de maior Idade."+"<br>"+menorIdade+" Pessoas são de menor Idade.");
+	*/
+	
+	</script>
+
+</body>
+</html>

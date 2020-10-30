@@ -1,0 +1,195 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+span{
+	position: relative;
+	top: 250px;
+	left: 100px;
+}
+#corpo{
+	background-color: #808080;
+	position: relative;
+	width: 500px;
+	height: 700px;
+	top: 100px;
+	left: 750px;
+	border-radius:10px;	 
+}
+
+
+#visor{
+	position: relative;
+	top: 125px;
+	height:80px;
+	width: 470px;
+	left: 14px;
+	border-radius: 10px;
+	border-color:#F0F8FF;
+	text-align: center;
+	font-size: 55px;
+	font-family: impact;
+}
+
+#delete{
+	position: relative;
+	top: 150px;
+	width: 109px;
+	height: 30px; 
+	left: 17px;	
+	font-size:20px;
+	font-family: arial;
+	font-weight: bold;
+	te
+}
+
+#seven{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	
+}
+
+#eight{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	
+}
+
+#nine{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+;
+
+}
+
+#plus{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+}
+
+/*fileirra2*/
+#four{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#five{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#six{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#equals{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+}
+/*fileira3*/
+#one{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#two{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#three{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#mult{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+}
+/*fileira4*/
+#reset{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#zero{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#result{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+}
+#division{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+}
+
+#logo{
+	position: relative;
+	top: 244px;
+	left: 202px;
+	width: 95px;
+	height: 95px;
+
+
+}

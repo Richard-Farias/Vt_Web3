@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+	<body>
+		<div id="corpo">
+			<span>iCalc</span>
+			<form name="calcula">
+				<input id = "visor" type="" name="visor">
+				<input id = "delete" type="button" value="DEL" onclick="del()">
+				<br>
+				<input id = "seven" type="button" value="7" onclick="acionaIcone(value)">
+				<input id = "eight" type="button" value="8" onclick="acionaIcone(value)">
+				<input id = "nine" type="button" value="9" onclick="acionaIcone(value)">
+				<input id = "plus" type="button" value="+" onclick="acionaIcone(value)">
+				<br>
+				
+				<input id = "four" type="button" value="4" onclick="acionaIcone(value)">
+				<input id = "five" type="button" value="5" onclick="acionaIcone(value)">
+				<input id = "six" type="button" value="6" onclick="acionaIcone(value)">
+				<input id = "equals" type="button" value="-" onclick="acionaIcone(value)">
+				<br>
+				
+				<input id = "one" type="button" value="1" onclick="acionaIcone(value)">
+				<input id = "two" type="button" value="2" onclick="acionaIcone(value)">
+				<input id = "three" type="button" value="3" onclick="acionaIcone(value)">
+				<input id = "mult" type="button" value="*" onclick="acionaIcone(value)">
+				<br>
+				<input id = "reset" type="button" value="C" onclick="clean()">
+				<input id = "zero" type="button" value="0" onclick="acionaIcone(value)">
+				<input id = "result" type="button" value="=" onclick="resultado()">
+				<input id = "division" type="button" value="/" onclick="acionaIcone(value)">
+				<br>	
+			
+			</form>
+			<img id="logo" src="apple.jpeg">
+
+		</div>
+
+
+
+		<script type="text/javascript">
+		function acionaIcone(icone) {
+			var salvar = document.calcula.visor.value; 	
+			document.calcula.visor.value = salvar + icone;	
+		}
+
+		function clean(){
+			document.calcula.visor.value="";
+		}
+
+		function del(){
+			var deletar = document.calcula.visor.value;
+			 document.calcula.visor.value 
+			 = deletar.substring(0,deletar.length-1);
+		}
+		
+		function resultado(){
+			var calculo = document.calcula.visor.value;/*pega os números do visor*/
+			if(calculo){
+			document.calcula.visor.value = eval(calculo)/*faz o cálculo*/
+			}
+		}
+
+		
+		</script>
+			
+	</body>
+</html>

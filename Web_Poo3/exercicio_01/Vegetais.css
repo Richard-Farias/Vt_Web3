@@ -1,0 +1,91 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#cabecalho{
+
+	padding:1px;
+	padding-bottom: px;
+	padding-top: 4px;
+	background:  #008000;
+
+}
+
+nav{
+	background: #FFA500	;
+	color: #FF0000;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#menu{
+	background-color: #F8F8FF;
+	width: 1096px;
+	height: 603px;
+	padding-top: 15px;
+	padding-left: 38px;
+	padding-right: 38px	
+
+}
+
+#lista{
+	text-align:
+}
+
+
+.backgroud{
+	background-image:url("imgBody.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 1;
+}
+
+#introducao{
+	color:  #008000;
+	font-family: candara;
+}
+
+dl{
+	text-align: left;
+	font-family: candara;
+	color: #FF0000;
+
+}
+
+ol{
+	text-align: left;
+	color: #FFA500
+}
+
+dd{
+	font-size: 18px;
+	color: #008000;
+}
+#imgAlface{
+	width: 75px;
+	height: 75px;
+}
+
+#imgCebola{
+	width: 78px;
+	height: 78px;
+}
+
+#imgTomate{
+	width: 75px;
+	height: 75px;
+}
+
+#navFinal{
+	text-align: center;
+}
+
+footer{
+	background: #008000;
+	color: #F0F8FF;
+	text-align: center;
+	padding-bottom: 15px;
+}

@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+span{
+	position: relative;
+	top: 63px;
+	left: 200px;
+	font-size: 80px;
+	font-family:roboto;
+	font-weight: bold;
+	color: #F0F8FF;
+	text-shadow:3px 3px 5px #1C1C1C
+	
+}
+#corpo{
+	background-color: #808080;
+	position: relative;
+	width: 500px;
+	height: 700px;
+	top: 100px;
+	left: 750px;
+	border-radius:10px;	 
+
+}
+
+
+#visor{
+	position: relative;
+	top: 100px;
+	height:80px;
+	width: 470px;
+	left: 14px;
+	border-radius: 10px;
+	border-color:#F0F8FF;
+	text-align: center;
+	font-size: 55px;
+	font-family: impact;
+}
+
+#delete{
+	position: relative;
+	top: 150px;
+	width: 109px;
+	height: 30px; 
+	left: 17px;	
+	font-size:20px;
+	font-family: arial;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#seven{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+
+#eight{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+
+#nine{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+
+}
+
+#plus{
+	position: relative;
+	top: 170px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+	cursor: pointer;
+}
+
+/*fileirra2*/
+#four{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#five{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#six{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#equals{
+	position: relative;
+	top: 190px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+	cursor: pointer;
+}
+/*fileira3*/
+#one{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#two{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#three{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#mult{
+	position: relative;
+	top: 210px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+	cursor: pointer;
+}
+/*fileira4*/
+#reset{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#zero{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#result{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 17px;	
+	font-size:20px;
+	cursor: pointer;
+}
+#division{
+	position: relative;
+	top: 230px;
+	width: 109px;
+	height: 60px; 
+	left: 35px;	
+	font-size:20px;
+	cursor: pointer;
+}
+
+#logo{
+	position: relative;
+	bottom: 400px;
+	left: 99px;
+	width: 95px;
+	height: 95px;
+	cursor: pointer;
+
+}

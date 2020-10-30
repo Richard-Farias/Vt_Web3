@@ -1,0 +1,37 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+		<title>Exercício 7</title>
+		<meta charset="utf-8">
+		</head>
+			<body>
+
+		Digite o número:<input type="text" name="num" size="5" id="num">
+			
+			<script type="text/javascript">
+
+				var numero = "";
+
+				function capturar(num) {
+				 	numero = document.getElementById('num').value;
+
+				 	if (numero==1) {alert("AIA 1");}
+
+				 	else
+					 if (numero==2) {alert("AIA 2");}
+
+					else
+					 if( numero==3){alert("AIA 3");}
+					
+					 else{alert("Número inválido");}
+
+					 document.getElementById('valor').innerHTML=numero;
+					
+				}
+				num( document.getElementById('valor').innerHTML=numero);
+				</script>
+		 <input type="submit" name="" onclick="capturar()" value="Enviar"> 
+		 <p id="valor"></p>
+		
+			</body>
+	</html>

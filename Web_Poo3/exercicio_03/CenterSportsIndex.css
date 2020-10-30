@@ -1,0 +1,235 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*nav{
+	background-color:#00FA9A;	
+	text-align: center;
+	padding-bottom: 20px;
+}*/
+input{
+	width: 370px;
+	height: 30px;
+	border-radius: 8px;
+	border-color: #991095;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+i{
+	color:#991095;;
+}
+
+#carrinho{
+width: 50px;
+height: 50px;
+float: right;
+position: relative;
+bottom:60px;
+right: 20px;
+color: #00FA9A;
+padding: 30px 30px 30px 30px;
+
+}
+
+#user{
+	position:relative;
+	left: 1090px;
+	bottom: 47px;
+	color: #00FA9A;
+	font-color:white;
+}
+
+#login{
+	font-size: 25px;
+	position: relative;
+	left:5px;
+	color: #F8F8FF;
+}
+#tituloLogin{
+	font-size: 16px;
+	position: relative;
+	left: 5px;
+}
+
+
+#iconePesquisa{
+	width: 30px;
+	height: 30px;
+	border-radius:8px;
+	border-color: #991095;
+}
+
+
+#cabecalho{
+	background-color: #2e005a;
+	padding-top: 2px;
+	height: 201px;
+}
+
+#logo{
+	width:196px; 
+	height:196px;
+	margin-left: 250px;
+}
+/*#logo{
+	width: 180px;
+	height: 180px;
+	padding-left:220px;
+	padding-bottom: 0px;
+	margin-top: 16px;
+}
+
+.logo{
+	
+	width: 23%;
+	height: 200px;
+	margin-left: 15px;
+
+}*/
+
+
+#enter{
+	float: right;
+}
+
+/*Barra navegação*/
+#menu{
+	background-color:#991095;
+	position: relative;
+	bottom: 100px;
+	min-width: 150%;
+
+	padding-top: 3px;
+	height: 40px;
+}
+#localIcone{
+	color:#F8F8FF;
+	position: relative;
+	left: 300px;
+	top: 4px;
+}
+#localIcone:hover{color: #00FA9A;}
+
+
+ a{
+	color: #F8F8FF;
+	font-family: arial;
+}
+#localidade{
+	position: relative;
+	left: 310px;
+	top: 4px;
+}
+#localidade:hover{
+	color:#00FA9A;;
+}
+
+#menu1{
+	position: relative;
+	left: 700px;
+	top: 4px;
+}
+#menu1:hover{color: #00FA9A;}
+
+#menu2{
+	position: relative;
+	left: 750px;
+	top: 4px;
+}
+#menu2:hover{ color: #00FA9A; }
+
+#menu3{
+	position: relative;
+	left: 800px;
+	top: 4px;
+}
+#menu3:hover{color: #00FA9A;}
+
+#menu4{
+	position: relative;
+	left: 850px;
+	top: 4px;
+}
+#menu4:hover{ color: #00FA9A; }
+
+#menu5{
+	position: relative;
+	left: 900px;
+	top: 4px;
+}
+#menu5:hover{color: #00FA9A;}
+
+/*Fim Menu navegação*/
+
+#divFrete{
+
+}
+#navFrete{
+	background-color:white;
+	height: 60px;
+	position: relative;
+	bottom: 100px;
+	min-width: 150%;
+
+}
+#legendaFrete{
+	color: #000000;
+	position: relative;
+	top: 30px;
+	right: 300px;
+
+}
+#freteTitulo{
+	font-family: arial;
+	position: relative;
+	left:6px;
+
+}
+#subTitulo{
+	color: #696969;
+	font-family: arial;
+	position:relative;
+	left: 20px;
+	font-size: 16px;
+}
+
+#iconeFrete{
+	color: #000000;
+	position: relative;
+	bottom: 20px;
+	left: 1000px;
+	height: 10px;
+	text-align: 20px,5px,5px,10px;
+
+	
+}
+
+#imgCorrida{
+	position: relative;
+	bottom: 10px;
+}
+
+
+.box-pesquisa{
+
+	width: 1300px;
+	height: 100px;
+	margin-left: 600px;
+	margin-bottom: 3px;
+	position: relative;
+	bottom: 120px;
+	right: 130px;
+
+}
+
+.box-ajuste{
+	padding-left: 150px;
+	padding-top: 15px;
+	position: relative;
+	right: 100px;
+	bottom: 1px;
+}

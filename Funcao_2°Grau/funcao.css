@@ -1,0 +1,138 @@
+
+header{
+	background-color:#B22222;	
+	padding: 40px;
+	padding-top: 1px;
+	font-family: arial black;
+	color: #F8F8FF;
+	font-size: 18px;
+
+}
+
+/* css página inicial*/
+
+
+/*#fq{
+	font-family: cursive;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+}*/
+
+#intro{
+	background-color: #F8F8FF;
+	width: 1040px;
+	height: 550px;	
+
+}
+
+#entrada{
+	font-family: monospace;
+	font-size: 20px;
+	width: 870px;
+	height: 290px;
+
+}
+
+#subtitulo{
+	color: #4F4F4F;
+}
+
+
+#formula{
+	font-size: 45px;
+
+}
+
+#enviar{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #B22222; 
+}
+
+/* css página segundária(resultado) */
+
+#introfinal{
+
+	background-color: #F8F8FF;
+	width: 1020px;
+	height: 930px;
+}
+
+#subtitulofinal{
+	color: #4F4F4F;
+}
+
+#fx{
+	padding: 5px;
+}
+
+#delta{
+	text-align: center;
+	
+}
+
+#deltaform{
+
+}
+
+
+
+#imgDelta{
+	width: 160px;
+	height: 55px;
+	float: center;
+}
+
+#fieldDelta{
+	width: 930px;
+	font-family: monospace;
+	font-size: 25px;
+}
+
+#imgBhaskara{
+	width: 160px;
+	height: 75px;
+	float: center;
+}
+
+#fieldRaiz{
+	width: 930px;
+	font-family: monospace;
+	font-size: 25px;
+}
+
+
+
+#imgVertice{
+	width: 160px;
+	height: 54px;
+	float: center;
+}
+
+#fieldVertice{
+	width: 930px;
+	height: 230px;
+	font-family: monospace;
+	font-size: 25px;
+}
+
+
+body{
+	background-image: url("cabecalho.jpg");
+}
+
+legend{
+	font-family: monospace;
+	color: #B22222;
+	font-size: 30px;
+
+
+}
+
+label{
+	font-family: monospace;
+	font-size:25px;
+}
+
+footer{}

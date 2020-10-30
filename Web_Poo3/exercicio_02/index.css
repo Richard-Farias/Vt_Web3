@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header{
+	background-color: #1E90FF;
+	color: #F0F8FF;
+	text-align: center;
+	padding-left: 373px;
+}
+
+h1{
+	font-size: 40px;
+	color: #1E90FF;
+
+}
+
+h2{
+	color: #708090;
+
+}
+
+h4{
+	padding-left: 15px;
+	color: #F0F8FF;
+	font-family: candara,arial,verdana;
+}
+
+ h3{
+ 	padding-left: 15px;
+	color: #F0F8FF;
+	font-family: candara,arial,verdana;
+ }
+ dd{
+ 	font-size: 22px;
+ }
+ ol{
+ 	text-align: left;
+ }
+ li{
+ 	font-size: 25px;
+ }
+
+
+footer {
+	clear: both;
+	background-color: #1E90FF;
+	text-align: center;
+	color: #F0F8FF;
+	
+}
+
+#esquerdo{
+	background-color: #708090;
+	min-height: 2020px;
+	width: 20%;
+	float: left;
+	margin-left:11px;
+	margin-top: 8px;
+
+	
+}
+#direito{
+	background-color: #F0F8FF;
+	min-height: 900px;
+	width: 79%;
+	float: right;
+	text-align: center;
+	
+}
+#experiencia{
+	background-color:#1E90FF;
+	color: #F0F8FF;
+	margin: 50px;
+	width: 1400px;
+	font-size: 25px;
+
+}
+
+#img{
+
+	width: 155px;
+	height: 190px;
+	padding-top: 10px;
+	padding-bottom:15px;
+
+}
+
+#nomeFoto{
+	color: #000000;
+	padding-left: 15px;
+	font-size: 16px;
+}
+
+#bandeira{
+	width: 25px;
+	height:15px;
+}
+
+#email{
+	width: 30px;
+	height:30px;
+	padding-right:2px;
+	padding-top: 6px;
+}
+
+#linkedin{
+	width: 30px;
+	height:30px;
+}
+
+#telefone{
+	width: 30px;
+	height:30px;
+}
+
+#navTexto{
+	background-color:#1E90FF;
+	color: #F0F8FF;
+	height: 30px;
+	text-align: center;
+	padding-top: 6px;
+	padding-right:40px;
+}
+
+#titulo1{
+	color: #000000;
+	text-align: left;
+	padding-left: 52px;
+	font-size: 30px
+}
+#subtitulo1{
+	 color: #1E90FF;
+	 font-size: 25px;
+	 text-align: left;
+	 padding-left: 52px;
+}
+#periodo1{
+	 text-align: left;
+	 padding-left: 52px;
+	 font-size: 22px;
+	 padding-left: 52px;
+	 text-align: left;
+	 color: #708090;
+}
+
+#links{
+	width:200px;
+	height:100px;
+}
+

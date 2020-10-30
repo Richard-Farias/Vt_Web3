@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang ="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="FrontEnd.css">
+</head>
+
+	<body>
+
+		<h1>
+	 		<center><br><img src="logo " ></center>
+
+	 		<center> Planilha de orçamento Menu Board Digital</center>
+   		 </h1>
+
+		<form action="EscalarBack.php" method="post">
+
+			<table border="1" cellpadding="15" cellspacing="5" style="border-color: #215966">
+
+				<tr>
+					<th colspan="14" bgcolor="#5DBCD2" style=" color: #ffffff" "font-family: arial" >Tvs</th>	
+				</tr>
+
+				<tr bgcolor="#B7DDE8">
+					<th aling = "center"style="font-family: arial"> Quant</th>	
+					<th aling = "center" colspan ="5"style="font-family: arial">Tvs	</th>
+					<th aling = "center" colspan ="4"style="font-family: arial">Valor Unitário</th>
+					<th aling = "center" colspan ="4" style="font-family: arial">Valor Total</th>
+				</tr>	
+
+
+				<tr bgcolor="#B7DDE8">
+					<td> <input type=" number" name="arrayQuant"  placeholder="     0" size="2">	</td>
+						
+					<td colspan ="5"style="font-family: arial">
+
+						<select name="arrayTvs">
+							<option value ="Tv 43 Polegadas " >Tv 43 Polegadas</option>
+							<option value="Tv 49 Polegadas " >Tv 49 Polegadas</option>
+							<option value="Tv 50 Polegadas " >Tv 50 Polegadas</option>
+							<option value="Tv 55 Polegadas " >Tv 55 Polegadas</option>
+							<option value="Tv 58 Polegadas " >Tv 58 Polegadas</option>
+							<option value="Tv 65 Polegadas " >Tv 65 Polegadas</option>
+							<option value="Tv 55 Polegadas" >Tv 55 Polegadas</option>
+							<option value="monitor LFD(tamanho definido por projeo)" >monitor LFD(tamanho definido por projeo)</option>
+							<option value="Monitor vídeo wall" >Monitor vídeo wall</option>	
+						</select>
+
+					</td>
+
+					<td colspan ="4"style="font-family: arial">
+						<input type=" number" name="arrayValor"  placeholder="       R$ 0,00" size="10">
+					</td>
+						
+
+					<td colspan ="4"style="font-family: arial">
+						<input type="submit" name="submit" value="Enviar"><a href="EscalarBack.php"></a>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

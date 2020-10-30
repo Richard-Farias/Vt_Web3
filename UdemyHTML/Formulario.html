@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+	<h1>Formulário</h1>
+	<form action="formulario.php" method="post">
+		<label for="nome">Nome </label><br>
+
+		<input type="text" name="nome" size="30" maxlength="100" id="nome" placeholder="Nome Completo" required="" autofocus="">
+		<br>
+		<br>
+		<label for="telefone">Telefone</label><br>
+		<input type="tel" name="telefone" id="telefone" size="13" maxlength="15" placeholder="(DDI) (DDD) 0000-0000">
+		<br>
+		<br>
+		<label for="email">Email</label><br>
+		<input type="email" name="email" id="email" size="30" maxlength="100" placeholder="seunome@.com">
+		<br>
+		<br>
+		<label for="nascimento">Data Nascimento</label><br>
+		<input type="date" name="nascimento" id="nascimento" required="" autofocus="" size="30">
+		<br>
+		<br>
+		<input type="submit" name="enviar" value="Enviar">
+		
+	</form>
+
+</body>
+</html>
