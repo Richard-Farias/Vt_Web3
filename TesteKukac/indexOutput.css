@@ -1,0 +1,223 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+header{
+	background-color: #000000;
+	padding: 20px;
+	height: 100px;
+
+}
+
+body{
+	background: #DCDCDC;
+}
+
+#titulo{
+	font-family: 'Pragati Narrow', sans-serif;
+	 color: #F0F8FF;
+	font-size: 55px;
+	position:relative;
+	bottom: 10px;
+	left: 100px;
+
+}
+#sub{
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size: 15px;
+	position: relative;
+	top: 8px;
+	color:  #FFA500;
+	right: 15px;
+
+}
+#textoTeste{
+	background: #FFA500;
+	position: relative;
+	top:80px;
+	right: 22px;
+    width:60px; 
+	
+}
+
+#subtitulo{
+	background: #FFA500;
+	position: relative;
+	top:80px;
+	right:450px;
+	width:1965px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#texto{
+	font-family: 'Pragati Narrow', sans-serif;
+	position: relative;
+	left: 830px;
+	font-size: 20px;
+	font-weight:bold;
+	color: #000000;
+}
+
+#tituloFormulario{
+	position: relative;
+	text-align: center;
+	color:#000000;
+	top: 10px;
+	font-size:38px;
+}
+
+#divPrincipal{
+	background:#FFA500;
+	width: 1040px;
+	height: 570px;
+	position: relative;
+	margin: 20px auto 20px auto;
+	top: 100px;	
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Pragati Narrow', sans-serif;
+	color: 	
+}
+
+#divFormulario{
+	background: #000000;
+	width: 900px;
+	height: 425px;
+	margin:20px auto 20px auto;
+	bottom: 30px;
+
+}
+
+#labelNome{
+	color: #F0F8FF;
+	position: relative;
+	top:100px;
+	right:50px;
+	
+}
+
+#inputNome{
+
+	width: 700px;
+	position: relative;
+	top:130px;
+	left: 100px;
+}
+
+#labelRenda{
+	color: #F0F8FF;
+	position: relative;
+	top:142px;
+	right: 16px;
+	
+}
+#inputRenda{
+	width: 130px;
+	position: relative;
+	top: 135px;
+	left:100px;
+}
+
+#labelDependente{
+	color:#F0F8FF;
+	position: relative;
+	top:142px;
+	right: 120px;
+	
+}
+
+#inputDependente{
+	width: 130px;
+	position: relative;
+	top: 135px;
+}
+#labelCep{
+	color:#F0F8FF;
+	position: relative;
+	top:242px;
+	left:130px;
+	text-align: center;
+}
+
+#inputCep{
+	width: 130px;
+	position: relative;
+	top: 233px;
+	left:282px;
+}
+
+#btnEnviar{
+	position: relative;
+	top: 160px;
+
+}
+#txtFooter{
+	position: absolute;
+	top:8px;
+	left: 900px;
+	font-family: 'Pragati Narrow', sans-serif;
+
+}
+
+#labName{
+	color: #F0F8FF;
+	position: relative;
+	top: 45px;
+	left: 112px;
+	font-size: 25px;
+
+}
+
+#labRendaCapita{
+	color: #F0F8FF;
+	position: relative;
+	right:418px;
+	top:290px;
+	font-size: 25px;
+}
+
+#labCep{
+	color: #F0F8FF;
+	position: relative;
+	top:100px;
+	right: 140px;
+	font-size: 25px;
+}
+
+#labCep2{
+	color: #F0F8FF;
+	position: relative;
+	top:160px;
+	right: 475px;
+	font-size: 25px;
+}
+
+#labBairro{
+	color: #F0F8FF;
+	position: relative;
+	left:90px;
+	top:170px;
+	font-size: 25px;
+}
+
+#labCidade{
+	color: #F0F8FF;
+	position: relative;
+	top:230px;
+	right: 113px;
+	font-size: 25px;
+}
+
+#labEstado{
+	color: #F0F8FF;
+	position: relative;
+	top:230px;
+	right: 60px;
+	font-size: 25px;
+}
+
+
+
+
